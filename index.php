@@ -1,6 +1,7 @@
 <?php
 // 1. Buka file gambar
 $image = imagecreatefromjpeg("coverImage/gambar.jpeg");
+
 // 2. Tulis pesan yang ingin disisipkan
 $message = "Apa Kabar?";
 
