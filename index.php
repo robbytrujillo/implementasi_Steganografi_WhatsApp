@@ -1,9 +1,8 @@
 <?php
 // 1. Buka file gambar
-$image = imagecreatefromjpeg("gambar.jpeg");
-
+$image = imagecreatefromjpeg("coverImage/gambar.jpeg");
 // 2. Tulis pesan yang ingin disisipkan
-$message = "Ini adalah pesan yang ingin disisipkan";
+$message = "Apa Kabar?";
 
 // 3. Ubah pesan menjadi biner
 $binaryMessage = "";
@@ -33,5 +32,5 @@ if ($index == strlen($binaryMessage)) {
 }
 
 //6. Simpan gambar yang telah disisipkan pesan ke dalam file baru
-imagejpeg($image, "gambar_disisipkan_pesan.jpeg");
+imagejpeg($image, "steganografiImage/gambar_steganografi.jpeg");
 ?>
